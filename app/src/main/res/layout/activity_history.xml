@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFF5EE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtTieuDe"
+        android:layout_width="374dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="LỊCH SỬ NGƯỜI CHƠI"
+        android:textColor="#3168CC"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/btnDangXuat"
+        android:layout_width="39dp"
+        android:layout_height="41dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/exit"></TextView>
+
+    <TextView
+        android:id="@+id/btnHome"
+        android:layout_width="39dp"
+        android:layout_height="41dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="58dp"
+        android:background="@drawable/home2"></TextView>
+
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="157dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="name"
+        android:textColor="#3168CC"
+        android:textSize="20sp"></TextView>
+
+
+    <ListView
+        android:id="@+id/lvHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtTieuDe"
+        android:layout_marginTop="130dp">
+
+    </ListView>
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/txtTieuDe"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="Chọn chủ đề:"
+        android:textColor="#3168CC"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/spCategory"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Điểm"
+        android:textColor="#3168CC"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/spCategory"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Ngày chơi"
+        android:textColor="#3168CC"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/spCategory"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Điểm"
+        android:textColor="#3168CC"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/spCategory"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Chủ đề"
+
+        android:textColor="#3168CC"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/spCategory"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:gravity="fill_vertical"
+        android:text="Thứ tự"
+        android:textColor="#3168CC"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTieuDe"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/spinner"
+        android:layout_marginTop="25dp"
+        android:gravity="center"></Spinner>
+</RelativeLayout>

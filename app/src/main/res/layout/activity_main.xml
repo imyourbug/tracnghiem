@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFF5EE"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.user.MainActivity">
+
+    <TextView
+        android:id="@+id/btnHome"
+        android:layout_width="39dp"
+        android:layout_height="41dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="58dp"
+        android:background="@drawable/home2"></TextView>
+
+    <TextView
+        android:id="@+id/btnDangXuat"
+        android:layout_width="39dp"
+        android:layout_height="41dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/exit"></TextView>
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="name"
+        android:textColor="#3168CC"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtTieuDe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Lựa chọn chủ đề"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <Spinner
+        android:id="@+id/spCategory"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTieuDe"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/spinner"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:id="@+id/txtHighScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spCategory"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Điểm cao"
+        android:textColor="#FF3D00"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+
+    <TextView
+        android:id="@+id/btnStart"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/txtHighScore"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/play3"></TextView>
+
+
+    <TextView
+        android:id="@+id/btnHistory"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/txtHighScore"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/parchment"></TextView>
+
+    <TextView
+        android:id="@+id/btnBack"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_below="@id/txtHighScore"
+        android:layout_gravity="center"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/back"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnStart"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="75dp"
+        android:text="Bắt đầu"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnHistory"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="180dp"
+        android:text="Lịch sử"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnBack"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="290dp"
+        android:text="Quay lại"></TextView>
+</RelativeLayout>

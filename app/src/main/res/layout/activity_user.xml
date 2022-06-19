@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5EE"
+    >
+
+    <TextView
+        android:id="@+id/btnDangXuat"
+        android:layout_width="39dp"
+        android:layout_height="41dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/exit"></TextView>
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="181dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="name"
+        android:textColor="#3168CC"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtTieuDe"
+        android:layout_width="308dp"
+        android:layout_height="96dp"
+        android:layout_below="@id/txtUserName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="APP TRẮC NGHIỆM"
+        android:textColor="#3168CC"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/btnGuide"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txtTieuDe"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/guide"></TextView>
+
+    <TextView
+        android:id="@+id/btnHistory"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txtTieuDe"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/history"></TextView>
+
+    <TextView
+        android:id="@+id/btnRank"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txtTieuDe"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="201dp"
+        android:background="@drawable/rank"></TextView>
+
+    <TextView
+        android:id="@+id/btnReady"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txtTieuDe"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ready"></TextView>
+
+    <TextView
+        android:id="@+id/btnDoiMatKhau"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txtTieuDe"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/reset"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnHistory"
+        android:layout_marginLeft="110dp"
+        android:text="Lịch sử"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnGuide"
+        android:layout_marginLeft="93dp"
+        android:text="Hướng dẫn"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnDoiMatKhau"
+        android:layout_marginLeft="220dp"
+        android:text="Đổi mật khẩu"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRank"
+        android:layout_marginLeft="240dp"
+
+        android:text="Xếp hạng"
+        android:textSize="20dp"></TextView>
+
+</RelativeLayout>
